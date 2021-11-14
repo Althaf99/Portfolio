@@ -588,11 +588,13 @@ section .title::after {
     display: flex;
     height: 65px;
     align-items: center;
+
 }
 
 .contact .contact-content .column-left .row .info {
     margin-left: 30px;
 }
+
 
 .contact .contact-content .column-left .row i {
     font-size: 25px;
@@ -601,6 +603,7 @@ section .title::after {
 
 .contact .contact-content .info .head {
     font-weight: 500;
+    text-decoration: none;
 }
 
 .contact .contact-content .info .sub-title {
@@ -699,30 +702,6 @@ section .title::after {
     color: crimson;
     background: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
