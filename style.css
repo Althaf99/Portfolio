@@ -335,6 +335,7 @@ section .title::after {
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-bottom: 10px;
 }
 
 .services .services-content .card #c1,
@@ -495,6 +496,7 @@ section .title::after {
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
+    
 }
 
 .teams .carousel .card:hover {
@@ -610,6 +612,9 @@ section .title::after {
     color: black;
 }
 
+.contact .contact-content .column-left .row  a{
+    color: black;
+} 
 
 
 
