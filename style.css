@@ -106,6 +106,11 @@ html {
 
 
 /* All similiar content styling codes */
+a {
+    all: unset;
+  }
+
+
 section {
     padding: 100px 0px;
 }
@@ -329,6 +334,8 @@ section .title::after {
 
 .services .services-content .card {
     width: 33%;
+    text-decoration: none;
+    
     background: rgb(134, 133, 133);
     text-align: center;
     border-radius: 6px;
@@ -337,6 +344,8 @@ section .title::after {
     transition: all 0.3s ease;
     margin-bottom: 10px;
 }
+
+
 
 .services .services-content .card #c1,
 .services .services-content .card #c2,
