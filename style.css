@@ -466,6 +466,9 @@ section .title::after {
 .skills .skills-content .column-right .mysql::before {
   width: 90%;
 }
+.skills .skills-content .column-right .github::before {
+  width: 75%;
+}
 
 /* teams section styling */
 .teams .title::after {
