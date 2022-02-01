@@ -212,7 +212,7 @@ section .title::after {
   font-weight: 500;
 }
 
-.home .home-content a {
+.home .home-content button {
   cursor: pointer;
   background: crimson;
   display: inline block;
@@ -224,7 +224,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.home .home-content a:hover {
+.home .home-content button:hover {
   color: crimson;
   background: none;
 }
