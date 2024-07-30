@@ -324,21 +324,27 @@ section .title::after {
 }
 
 .services .services-content .card {
-  width: 33%;
+  width: 45%;
   text-decoration: none;
   background: rgb(29, 29, 28);
   text-align: center;
   border-radius: 6px;
-  padding: 20px 25px;
+  padding: 0px 0px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.services .services-content .card .projectImage {
+  width: 100%; /* Adjust size as needed */
+  height: auto;
+  border-radius: 4px;
 }
 
 .services .services-content .card #c1,
 .services .services-content .card #c2,
 .services .services-content .card #c3 {
-  height: 175px;
+  height: 375px;
 }
 
 .services .services-content .card .box {
@@ -367,6 +373,11 @@ section .title::after {
   font-size: 25px;
   font-weight: 500;
   margin: 10px;
+}
+
+.services .services-content .card .github i {
+  font-size: 25px;
+  margin: 40px;
 }
 
 /* Skills section styling  */
@@ -900,4 +911,5 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+
 }
